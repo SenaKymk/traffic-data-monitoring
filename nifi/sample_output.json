@@ -1,0 +1,13 @@
+{
+  "event_id": "9b2c4a7e-4df8-4a6f-a2d2-6f3e2f5a91f4",
+  "source": "api",
+  "city": "Istanbul",
+  "region": "BESIKTAS",
+  "road_id": "D-100",
+  "ts": "2025-01-10T08:15:42Z",
+  "speed_kmh": 42.7,
+  "vehicle_count": 18,
+  "latitude": 41.0438,
+  "longitude": 29.0094,
+  "ingest_ts": "2025-01-10T08:15:45Z"
+}

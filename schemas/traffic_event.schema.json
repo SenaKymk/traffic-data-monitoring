@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TrafficEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "source",
+    "city",
+    "region",
+    "road_id",
+    "ts",
+    "speed_kmh",
+    "latitude",
+    "longitude",
+    "ingest_ts"
+  ],
+  "properties": {
+    "event_id": { "type": "string", "format": "uuid" },
+    "source": { "type": "string", "enum": ["api", "sensor", "gps"] },
+    "city": { "type": "string", "minLength": 1 },
+    "region": { "type": "string", "minLength": 1 },
+    "road_id": { "type": "string", "minLength": 1 },
+    "ts": { "type": "string", "format": "date-time" },
+    "speed_kmh": { "type": "number" },
+    "vehicle_count": { "type": ["integer", "null"], "minimum": 0 },
+    "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+    "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+    "ingest_ts": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "9b2c4a7e-4df8-4a6f-a2d2-6f3e2f5a91f4",
+  "source": "api",
+  "city": "Istanbul",
+  "region": "BESIKTAS",
+  "roadId": "D-100",
+  "timestamp": "2025-01-10T08:15:42Z",
+  "speedKmh": 42.7,
+  "vehicleCount": 18,
+  "lat": 41.0438,
+  "lon": 29.0094,
+  "ingestTs": "2025-01-10T08:15:45Z"
+}

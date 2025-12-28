@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Spark
+spark-warehouse/
+
+# Hadoop / Hive
+*.log
+*.lck
+hive.log
+
+# Output files
+output/*.geojson
+
+# OS
+.DS_Store
+Thumbs.db

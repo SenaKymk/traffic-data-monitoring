@@ -1,0 +1,25 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "id": "event_id",
+      "source": "source",
+      "city": "city",
+      "region": "region",
+      "roadId": "road_id",
+      "timestamp": "ts",
+      "speedKmh": "speed_kmh",
+      "vehicleCount": "vehicle_count",
+      "lat": "latitude",
+      "lon": "longitude",
+      "ingestTs": "ingest_ts"
+    }
+  },
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "speed_kmh": "=toDouble",
+      "vehicle_count": "=toInteger"
+    }
+  }
+]
