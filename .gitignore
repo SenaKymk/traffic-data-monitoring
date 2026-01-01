@@ -10,6 +10,23 @@ venv/
 
 # Spark
 spark-warehouse/
+# Python virtual env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data / outputs
+*.db
+*.sqlite
+*.parquet
+*.csv
+logs/
+output/
+
+# IDE / OS
+*.env
+*.DS_Store
 
 # Hadoop / Hive
 *.log
